@@ -6,6 +6,7 @@ function changeOuterLinks() {
             e.innerHTML = `<strong>${e.innerHTML}</strong>`;
         }
     })
+    
     document.querySelectorAll("nav").forEach( e => {
         e.style.display = "flex";
         e.style.flexDirection = "column";
